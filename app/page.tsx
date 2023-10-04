@@ -19,7 +19,6 @@ export default async function page() {
 
   return (
     <>
-      {JSON.stringify(data)}
       {data?
         <HomePage data={data} />
         :
