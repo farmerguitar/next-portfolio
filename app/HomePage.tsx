@@ -18,6 +18,7 @@ interface Props {
 const HomePage = ({ data }: Props) => {
     return (
         <>
+            {JSON.stringify(data)}
             <Header logo={data.main.name} />
             <Hero mainData={data.main} />
             <Socials socials={data.socials} />
